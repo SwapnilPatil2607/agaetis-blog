@@ -1,9 +1,10 @@
+import BlogPage from "./pages/blog-page/BlogPage";
+
 function App() {
   return (
     <>
       <div>
-        <div>Hello</div>
-        <p className="fs-1">.fs-1 text</p>
+        <BlogPage />
       </div>
     </>
   );
