@@ -1,4 +1,5 @@
 import BannerSection from "./components/BannerSection";
+import Card from "./components/Card";
 import Header from "./components/Header";
 
 const BlogPage = () => {
@@ -6,6 +7,14 @@ const BlogPage = () => {
     <div>
       <Header />
       <BannerSection />
+      <div className="row">
+        <div className="col-6">
+          <Card />
+        </div>
+        <div className="col-6">
+          <Card />
+        </div>
+      </div>
     </div>
   );
 };
