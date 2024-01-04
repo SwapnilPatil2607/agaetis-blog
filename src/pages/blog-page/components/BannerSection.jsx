@@ -1,6 +1,6 @@
 const BannerSection = () => {
   return (
-    <div className="row bg-dark text-white p-4 p-md-5">
+    <div className="row bg-dark text-white p-4 p-md-5 rounded">
       <div className="col-6">
         <h1>Title of a longer featured blog post</h1>
         <p>

@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair+Display:wght@500&display=swap');
+
 body {
   padding: 0;
   margin: 0;
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Playfair Display', serif;
 }

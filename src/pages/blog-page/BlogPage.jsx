@@ -7,14 +7,14 @@ import Header from "./components/Header";
 
 const BlogPage = () => {
   return (
-    <div>
+    <div className="d-flex flex-column gap-3  w-[960px]">
       <Header />
       <BannerSection />
-      <div className="row">
-        <div className="col-6">
+      <div className="row flex gap-2 justify-content-evenly">
+        <div className="col-5">
           <Card />
         </div>
-        <div className="col-6">
+        <div className="col-5">
           <Card />
         </div>
       </div>

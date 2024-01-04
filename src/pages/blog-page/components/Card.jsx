@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className="row border border-secondary-subtle">
+    <div className="row border border-secondary-subtle rounded">
       <div className="col-7 p-4">
         <p>World</p>
         <h3>Featured Post</h3>
