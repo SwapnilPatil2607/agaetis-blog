@@ -1,3 +1,4 @@
+import AdditionInformation from "./components/AdditionInformation";
 import BannerSection from "./components/BannerSection";
 import Card from "./components/Card";
 import Header from "./components/Header";
@@ -15,6 +16,7 @@ const BlogPage = () => {
           <Card />
         </div>
       </div>
+      <AdditionInformation />
     </div>
   );
 };
