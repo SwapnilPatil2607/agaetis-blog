@@ -1,34 +1,44 @@
 import { useForm } from "react-hook-form";
-const BlogForm = () => {
+const BlogForm = ({ onFormSubmit }) => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data);
-    console.log(watch);
-    console.log(errors);
-  };
-
+  const alertCss = "border border-danger";
   return (
     <div>
       <form
-        onSubmit={handleSubmit(onSubmit)}
+        onSubmit={handleSubmit(onFormSubmit)}
         className="d-flex flex-column gap-3 border border-1 p-4 rounded"
       >
-        <input {...register("author", { required: true })} />
-        <input type="date" {...register("date", { required: true })} />
-        <input {...register("blogTitle", { required: true })} />
-        <input {...register("blogSubTitle", { required: true })} />
-        <textarea {...register("content", { required: true })}>
-          It was a dark and stormy night...
-        </textarea>
-
-        {errors.length && <span>Fill all the fields</span>}
-
+        <label>Author</label>
+        <input
+          className={errors.author && alertCss}
+          {...register("author", { required: true })}
+        />
+        <label>Date</label>
+        <input
+          className={errors.date && alertCss}
+          type="date"
+          {...register("date", { required: true })}
+        />
+        <label>Blog Title</label>
+        <input
+          className={errors.blogTitle && alertCss}
+          {...register("blogTitle", { required: true })}
+        />
+        <label>Blog Subtitle</label>
+        <input
+          className={errors.blogSubTitle && alertCss}
+          {...register("blogSubTitle", { required: true })}
+        />
+        <label>Content</label>
+        <textarea
+          className={errors.content && alertCss}
+          {...register("content", { required: true })}
+        />
         <input
           className="bg-dark rounded border-0 text-white p-2"
           type="submit"
