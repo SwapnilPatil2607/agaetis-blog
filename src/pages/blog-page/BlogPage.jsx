@@ -2,6 +2,7 @@ import AdditionInformation from "./components/AdditionInformation";
 import BannerSection from "./components/BannerSection";
 import BlogSection from "./components/BlogSection";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 const BlogPage = () => {
@@ -25,6 +26,7 @@ const BlogPage = () => {
           <AdditionInformation />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
