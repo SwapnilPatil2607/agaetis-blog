@@ -1,9 +1,11 @@
 import AnotherBlogSection from "./AnotherBlogSection";
+import BlogForm from "./BlogForm";
 import NewFeatureSection from "./NewFeatureSection";
 
 const BlogSection = () => {
   return (
     <div className="px-3">
+      <BlogForm />
       <div className="border border-bottom-1 border-top-0  border-end-0 border-start-0 ">
         <h2 className="fst-italic">From the Firehose</h2>
       </div>
