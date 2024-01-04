@@ -6,9 +6,9 @@ const Card = () => {
         <h3>Featured Post</h3>
         <p>Nov 12</p>
         <p>
-          Multiple lines of text that form the lede, informing new readers
-          quickly and efficiently about what’s most interesting in this post’s
-          contents.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+          porro aspernatur. Fugiat quam, voluptas obcaecati ut nemo officia.
+          delectus culpa maiores.
         </p>
         <p>
           <a href="#" className="">

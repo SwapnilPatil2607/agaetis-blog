@@ -1,12 +1,13 @@
 const AdditionInformation = () => {
   return (
     <div className="d-flex flex-column gap-4">
-      <div className="bg-light rounded col-md-3 col-sm-6 p-4">
+      <div className="bg-light rounded col-md-12 col-sm-6 p-4">
         <h2>About</h2>
         <p>
-          Customize this section to tell your visitors a little bit about your
-          publication, writers, content, or something else entirely. Totally up
-          to you.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
+          assumenda vel commodi maxime magni dolores facere quaerat, deleniti
+          tempore esse, quam delectus reprehenderit? Necessitatibus, minus
+          possimus tempora consequuntur perspiciatis consectetur.
         </p>
       </div>
 
