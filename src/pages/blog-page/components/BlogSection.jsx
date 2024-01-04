@@ -1,4 +1,5 @@
 import AnotherBlogSection from "./AnotherBlogSection";
+import NewFeatureSection from "./NewFeatureSection";
 
 const BlogSection = () => {
   return (
@@ -77,6 +78,7 @@ const BlogSection = () => {
       </div>
 
       <AnotherBlogSection />
+      <NewFeatureSection />
     </div>
   );
 };
