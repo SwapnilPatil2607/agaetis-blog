@@ -1,3 +1,5 @@
+import AnotherBlogSection from "./AnotherBlogSection";
+
 const BlogSection = () => {
   return (
     <div>
@@ -73,6 +75,8 @@ const BlogSection = () => {
         </ol>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
+
+      <AnotherBlogSection />
     </div>
   );
 };
