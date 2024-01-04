@@ -3,12 +3,12 @@ import NewFeatureSection from "./NewFeatureSection";
 
 const BlogSection = () => {
   return (
-    <div>
-      <div className="border border-bottom-1 border-top-0  border-end-0 border-start-0 py-3 px-1">
+    <div className="px-3">
+      <div className="border border-bottom-1 border-top-0  border-end-0 border-start-0 ">
         <h2 className="fst-italic">From the Firehose</h2>
       </div>
 
-      <div className="border border-bottom-1 border-top-0  border-end-0 border-start-0 py-3 px-1">
+      <div className="border border-bottom-1 border-top-0  border-end-0 border-start-0 ">
         <h1>Sample blog post</h1>
         <p>January 1, 2014 by Mark</p>
         <p className="mt-2">

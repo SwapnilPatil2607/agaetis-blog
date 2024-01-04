@@ -13,7 +13,7 @@ const Header = () => {
         </div>
       </div>
 
-      <nav className="row flex-nowrap py-2 px-2 link-secondary overflow-x-scroll justify-content-center">
+      <nav className="row flex-nowrap py-2 px-2 link-secondary overflow-x-scroll ">
         <div className="col">World</div>
         <div className="col">US</div>
         <div className="col">Technology</div>

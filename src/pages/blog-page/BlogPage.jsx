@@ -7,22 +7,22 @@ import Header from "./components/Header";
 
 const BlogPage = () => {
   return (
-    <div className="d-flex flex-column gap-3  w-[960px]">
+    <div className="d-flex flex-column gap-3 w-100">
       <Header />
       <BannerSection />
       <div className="row flex gap-2 justify-content-evenly">
-        <div className="col-5">
+        <div className="col-md-5 col-sm-12">
           <Card />
         </div>
-        <div className="col-5">
+        <div className="col-md-5 col-sm-12">
           <Card />
         </div>
       </div>
       <div className="row">
-        <div className="col-8">
+        <div className="col-md-8 col-sm-12">
           <BlogSection />
         </div>
-        <div className="col-4">
+        <div className="col-md-4 col-sm-12">
           <AdditionInformation />
         </div>
       </div>
