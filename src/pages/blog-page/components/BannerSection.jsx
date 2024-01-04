@@ -2,7 +2,9 @@ const BannerSection = () => {
   return (
     <div className="row bg-dark text-white p-4 p-md-5 rounded">
       <div className="col-6">
-        <h1>Title of a longer featured blog post</h1>
+        <h1 className="fst-italic fw-bolder">
+          Title of a longer featured blog post
+        </h1>
         <p>
           Multiple lines of text that form the lede, informing new readers
           quickly and efficiently about what’s most interesting in this post’s

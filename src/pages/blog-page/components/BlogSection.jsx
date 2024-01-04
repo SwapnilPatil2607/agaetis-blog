@@ -5,7 +5,7 @@ const BlogSection = () => {
   return (
     <div>
       <div className="border border-bottom-1 border-top-0  border-end-0 border-start-0 py-3 px-1">
-        <h2>From the Firehose</h2>
+        <h2 className="fst-italic">From the Firehose</h2>
       </div>
 
       <div className="border border-bottom-1 border-top-0  border-end-0 border-start-0 py-3 px-1">
